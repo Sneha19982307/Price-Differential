@@ -1,0 +1,9 @@
+rule all:
+    input:
+        "../outputs/hello.txt"
+
+rule hello:
+    output:
+        "../outputs/hello.txt"
+    script:
+        "../scripts/hello.py"
