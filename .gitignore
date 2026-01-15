@@ -1,0 +1,26 @@
+cd /home/sroy/Price_Differential/Snakemake
+
+cat > .gitignore <<'EOF'
+# outputs / reports
+outputs/
+reports/
+
+# snakemake
+.snakemake/
+*.snakemake.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# editor
+.vscode/
+.DS_Store
+EOF
